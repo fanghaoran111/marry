@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/template/template",
+    "pages/home/home",
+    "pages/template/alltemp/bir/bir",
+    "pages/template/alltemp/hunli/hunli",
+    "pages/template/alltemp/biye/biye",
+    "pages/template/alltemp/ent/ent",
+    "pages/logs/logs",
+    "pages/home/me/me",
+    "pages/home/computer/computer",
+    "pages/moban/moban"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "留念请帖",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/index.png",
+        "selectedIconPath": "pages/images/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/template/template",
+        "iconPath": "pages/images/moban.png",
+        "selectedIconPath": "pages/images/moban1.png",
+        "text": "案例展示"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/home1.png",
+        "text": "个人中心"
+      }
+    ],
+    "position": "bottom",
+    "selectedColor": "#d81e06",
+    "backgroundColor": "#fff",
+    "color": "#2c2c2c"
+  },
+  "enablePullDownRefresh": false,
+  "sitemapLocation": "sitemap.json"
+}

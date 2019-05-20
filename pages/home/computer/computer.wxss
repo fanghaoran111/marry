@@ -1,0 +1,48 @@
+/* pages/home/computer/computer.wxss */
+.nav_tab{
+  width:100%;
+  height:100rpx;
+  display:flex;
+  flex-direction:row;
+}
+.show{
+  line-height:100rpx;
+  text-align:center;
+  flex:1;
+  color:#333333;
+  font-size:32rpx;
+  opacity: 0.5;
+}
+.hidden{
+  line-height:100rpx;
+  text-align:center;
+  color:#ef9ba8;
+  flex:1;
+  font-size:32rpx;
+}
+.nav_underline{
+  background:#ef9ba8;
+  width:130rpx;
+  height:6rpx;
+  margin-top:-10rpx;
+  margin-left:60rpx;
+  border-radius:8rpx;
+}
+.flex-wrap {
+  width: 100%;
+}
+.flex-item {
+  width: 100%;
+  height:100rpx;
+  font-size:34rpx;
+  line-height: 100rpx;
+  margin:20px 30px; 
+  border-bottom: 1px solid #eeeef1;
+
+}
+.list11 {
+  color: red;
+  margin: 0 10% 0 10%;
+}
+
+

@@ -1,0 +1,26 @@
+<!--pages/template/template.wxml-->
+<view class="container">
+<!-- 顶部图片 -->
+	<view class='img'>
+    <image src='../images/image/gg.jpg'></image>
+  </view>
+  <!-- 所有模板 -->
+  <view class='tem_1'>
+            <text class='tem_t'>请帖邀请</text>
+            <navigator url="" open-type="switchTab">
+              <text class='tem_n'>全部></text>
+            </navigator>
+            <view class='hunli'>
+              <block wx:for="{{array}}" wx:for-item="array">
+                <view class='hunli_1' catchtap='listCatch' data-id="{{index}}">
+                    <image src='{{array.img}}'></image>
+                    <view class='tem_2'>
+                      <text>{{array.title}}</text>
+                      <image class='img' src="{{array.imgs}}"></image>
+                      <text class='text'>1110</text>
+                    </view>
+                </view>
+                </block>
+            </view>
+        </view>
+</view>

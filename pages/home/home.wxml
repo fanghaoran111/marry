@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class="container">
+<!-- 登录 -->
+  <view class="userinfo">
+  <view class='userinfo-t' wx:if="{{!hasUserInfo && canIUse}}">
+     <image class='userinfo-log' src='../images/log.png'></image>
+     <text>未登录状态</text>
+  </view>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击登录 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <!-- 问题导航 -->
+  <view class='liub'></view>
+  <view class='flex-wrap'>
+  <navigator url='./computer/computer'>
+    <view class='flex-item'>
+      <image src='../images/wenti.png'></image>
+      <text>常见问题</text>
+      <image class='flex-i' src='../images/jt.png'></image>
+    </view>
+  </navigator>
+  <!-- 联系我们 -->
+    <view class='flex-item' bindtap='call'>
+      <image src='../images/phone.png'></image>
+      <text>联系我们 18838091273</text>
+      <image class='flex-i' src='../images/jt.png'></image>
+    </view>
+    <!-- 关于我们 -->
+    <navigator url='./me/me'>
+    <view class='flex-item'>
+      <image src='../images/me.png'></image>
+      <text>关于我们</text>
+      <image class='flex-i' src='../images/jt.png'></image>
+    </view>
+    </navigator>
+  </view>
+  <view class='footer'>---方浩然---</view>
+</view>
+

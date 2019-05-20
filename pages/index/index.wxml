@@ -1,0 +1,119 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 音乐 -->
+  <view wx:if="{{music_url}}">
+    <view wx:if="{{isPlayingMusic}}">
+      <view class="background_music" bindtap="play">
+        <image src="../images/mus.png" class="musicImg music_icon" />
+        <image src="../images/music_play.png" class="music_play pauseImg" />
+      </view>
+    </view>
+    <view wx:else>
+      <view class="background_music" bindtap="play">
+        <image src="../images/mus.png" class="musicImg" />
+        <image src="../images/music_play.png" class="music_play playImg" />
+      </view>
+    </view>
+  </view>
+
+<!-- 轮播图 -->
+    <swiper class='lunbo' indicator-dots='true' autoplay='true' interval='4000'>
+        <swiper-item><image src='../images/banner/5c2d82c8de40e.jpg'></image></swiper-item>
+        <swiper-item><image src='../images/banner/111.jpg'></image></swiper-item>
+    </swiper>
+    <!-- 分类导航栏 -->
+    <view class='flex-wrp'>
+      <navigator url='../template/alltemp/hunli/hunli'>
+        <view class='flex-item'>
+            <image src='../images/images/timg.png'></image>
+            <text class="bg_red">婚礼请帖</text>
+        </view>
+      </navigator>
+
+      <navigator url='../template/alltemp/bir/bir'>
+        <view class='flex-item'>
+            <image src='../images/images/bir.png'></image>
+            <text class='bg_blue'>生日请帖</text>
+        </view>
+      </navigator>
+
+      <navigator url='../template/alltemp/biye/biye'>
+        <view class='flex-item'>
+            <image src='../images/images/biye.png'></image>
+            <text class='bg_pink'>毕业请帖</text>
+        </view>
+      </navigator>
+
+      <navigator url='../template/alltemp/ent/ent'>
+        <view class='flex-item'>
+            <image src='../images/images/yaoqing.png'></image>
+            <text class='bg_brown'>企业请帖</text>
+        </view>
+      </navigator>
+    </view>
+    <!-- 广告图片 -->
+    <view class='guanggao'>
+        <image src='../images/image/gg.jpg'></image>
+    </view>
+    <!-- 请柬模板示例 -->
+    <view class='template'>
+      <!-- 婚礼请帖 -->
+        <view class='tem_1'>
+            <text class='tem_t'>婚礼邀请</text>
+            <navigator url="../template/template" open-type="switchTab">
+              <text class='tem_n'>全部></text>
+            </navigator>
+            <view class='hunli'>
+             <block wx:for="{{items}}" wx:for-item="item">
+                <view class='hunli_1' catchtap='onDetailTap' data-id="{{index}}">
+                    <image src='{{item.img}}'></image>
+                    <view class='tem_2'>
+                      <text>{{item.title}}</text>
+                      <image class='img' src="{{item.imgs}}"></image>
+                      <text class='text'>1110</text>
+                    </view>
+                </view>
+                </block>
+            </view>
+        </view>
+<!-- 生日请帖 -->
+        <view class='tem_1'>
+            <text class='tem_t'>生日请帖</text>
+            <navigator url="" open-type="switchTab">
+              <text class='tem_n'>全部></text>
+            </navigator>
+            <view class='hunli'>
+              <block wx:for="{{array}}" wx:for-item="array">
+                <view class='hunli_1' catchtap='capTach' data-id="{{index}}" >
+                    <image src='{{array.img}}'></image>
+                    <view class='tem_2'>
+                      <text>{{array.title}}</text>
+                      <image class='img' src="{{array.imgs}}"></image>
+                      <text class='text'>1110</text>
+                    </view>
+                </view>
+                </block>
+            </view>
+        </view>
+  <!-- 毕业请帖 -->
+        <view class='tem_1'>
+            <text class='tem_t'>毕业请帖</text>
+            <navigator url="" open-type="switchTab">
+              <text class='tem_n'>全部></text>
+            </navigator>
+            <view class='hunli'>
+              <block wx:for="{{list}}" wx:for-item="list">
+                <view class='hunli_1' catchtap='listCatch' data-id="{{index}}">
+                    <image src='{{list.img}}'></image>
+                    <view class='tem_2'>
+                      <text>{{list.title}}</text>
+                      <image class='img' src="{{list.imgs}}"></image>
+                      <text class='text'>1110</text>
+                    </view>
+                </view>
+                </block>
+            </view>
+        </view>
+    </view>
+</view>
+

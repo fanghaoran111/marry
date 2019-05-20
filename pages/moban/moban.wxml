@@ -1,0 +1,5 @@
+<!--pages/moban/moban.wxml-->
+  <web-view  src="{{url}}"></web-view>
+
+
+

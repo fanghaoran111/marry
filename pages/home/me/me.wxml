@@ -1,0 +1,11 @@
+<!--pages/home/me/me.wxml-->
+<view class='container'>
+  <image src='../../images/log.png'></image>
+  <text class='flex-1'>制作团队：</text>
+  <text class='flex-2'>226</text>
+  <text class='flex-4'>程序简介：</text>
+  <text class='flex-5' space='nbsp'>
+    主要以结婚请帖、生日请帖、同学聚会、企业请帖为主，力求为客户提供满意服务！
+  </text>
+
+</view>

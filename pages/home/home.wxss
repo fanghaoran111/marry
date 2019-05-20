@@ -1,0 +1,88 @@
+/**index.wxss**/
+.container {
+  height: 100%;
+  width: 100%;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: 130px;
+  width: 98%;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+button {
+  font-size: 12px;
+  margin-right: 30px;
+  margin-top: -24px;
+}
+.userinfo-avatar,.userinfo-log {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.userinfo-t text {
+  display: flex;
+  font-size: 12px;
+  margin-top: -50px;
+  margin-left: 150px;
+  color: #fff;
+}
+.userinfo-nickname {
+  color: #fff;
+  margin-left: 160px;
+  margin-top: -60px;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+}
+.liub {
+  width: 100%;
+  height: 10px;
+  margin-top: 5px;
+  background-color:#eeeef1;
+}
+.flex-wrap {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  border-bottom: 1px solid #eeeef1;
+}
+.flex-item image {
+  width: 22px;
+  height: 22px;
+}
+.flex-item text {
+  margin-left: 23px;
+  margin-top: -25px;
+  font-size: 18px;
+}
+.flex-item .flex-i {
+  margin-top: -25px;
+  margin-left: 85%;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: #eeeef1;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+

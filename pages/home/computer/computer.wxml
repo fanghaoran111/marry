@@ -1,0 +1,85 @@
+<!--pages/home/computer/computer.wxml-->
+<view class="nav_title">
+      <view class="nav_tab">
+      <view wx:for="{{list}}" class="{{selected==index?'hidden':'show'}}" data-index='{{index}}' bindtap="selected">{{item}}
+      <view class="{{selected==index?'nav_underline':''}}"></view>
+      </view>
+      </view>
+      <view class='flex-wrap' wx:if="{{selected == 0}}">
+        <view data-index="0" bindtap='changeToggle'>
+          <view class='flex-item'>*如何登录到小程序</view>
+        <view class="right">
+          <text class="iconfont {{selectedFlag[0]?'icon-shangjiantou':'icon-xiala'}}"></text></view>
+        </view>
+        <view hidden="{{!selectedFlag[0]}}">
+          <block wx:for="{{list01}}" wx:for-item="item" wx:for-index="index">
+            <view class="li bg-gray">
+              <view class='list11'>一）进入小程序</view>
+              <view class='list11'>二）点击个人中心</view>
+              <view class='list11'>三）点击上方登录</view>
+            </view>
+          </block>
+        </view>
+        <view data-index="1" bindtap='changeToggle'>
+          <view class='flex-item'>*请帖如何激活支付</view>
+        <view class="right">
+          <text class="iconfont {{selectedFlag[1]?'icon-shangjiantou':'icon-xiala'}}"></text></view>
+        </view>
+        <view hidden="{{!selectedFlag[1]}}">
+          <block wx:for="{{list02}}" wx:for-item="item" wx:for-index="index">
+            <view class="li bg-gray">
+              <view class='list11'>暂时免费服务</view>
+            </view>
+          </block>
+        </view>
+      </view>
+
+      <view class='flex-wrap' wx:if="{{selected == 1}}">
+         <view data-index="2" bindtap='changeToggle'>
+          <view class='flex-item'>*如何定制制作请帖</view>
+        <view class="right">
+          <text class="iconfont {{selectedFlag[2]?'icon-shangjiantou':'icon-xiala'}}"></text></view>
+        </view>
+        <view hidden="{{!selectedFlag[2]}}">
+          <block wx:for="{{list03}}" wx:for-item="item" wx:for-index="index">
+            <view class="li bg-gray">
+              <view class='list11'>如需要定制服务，要先提供您的要求，具体可以联系我们qq:15855555</view>
+            </view>
+          </block>
+        </view>
+        <view data-index="3" bindtap='changeToggle'>
+          <view class='flex-item'>*请帖都需要哪些材料</view>
+        <view class="right">
+          <text class="iconfont {{selectedFlag[3]?'icon-shangjiantou':'icon-xiala'}}"></text></view>
+        </view>
+        <view hidden="{{!selectedFlag[3]}}">
+          <block wx:for="{{list04}}" wx:for-item="item" wx:for-index="index">
+            <view class="li bg-gray">
+              <view class='list11'>一）个人图片</view>
+              <view class='list11'>二）姓名、电话</view>
+              <view class='list11'>三）地址</view>
+            </view>
+          </block>
+        </view>
+
+      </view>
+
+      <view class='flex-wrap' wx:if="{{selected == 2}}">
+        <view data-index="4" bindtap='changeToggle'>
+          <view class='flex-item'>*为什么不能登录</view>
+        <view class="right">
+          <text class="iconfont {{selectedFlag[4]?'icon-shangjiantou':'icon-xiala'}}"></text></view>
+        </view>
+        <view hidden="{{!selectedFlag[4]}}">
+          <block wx:for="{{list05}}" wx:for-item="item" wx:for-index="index">
+            <view class="li bg-gray">
+              <view class='list11'>请检查网络是否连接，试试刷新重新进入</view>
+            </view>
+          </block>
+        </view>
+      </view>
+
+</view> 
+
+
+

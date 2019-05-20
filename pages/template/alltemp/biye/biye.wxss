@@ -1,0 +1,63 @@
+/* pages/template/alltemp/biye/biye.wxss */
+.nav_tab{
+  width:100%;
+  height:100rpx;
+  display:flex;
+  flex-direction:row;
+}
+.show{
+  line-height:100rpx;
+  text-align:center;
+  flex:1;
+  color:#333333;
+  font-size:28rpx;
+  opacity: 0.5;
+}
+.hidden{
+  line-height:100rpx;
+  text-align:center;
+  color:#ef9ba8;
+  flex:1;
+  font-size:28rpx;
+}
+.nav_underline{
+  background:#ef9ba8;
+  width:88rpx;
+  height:6rpx;
+  margin-top:-10rpx;
+  margin-left:80rpx;
+  border-radius:8rpx;
+}
+.flex-wrap {
+  display: flex;
+  width: 100%;
+}
+.flex-item {
+  display: flex;
+  width: 50%;
+  flex-direction: row;
+  justify-content: center;
+}
+.img {
+  padding-left: 30px;
+  width: 170px;
+  height: 266px;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+.img1 {
+  width: 10px;
+  height: 6px;
+  margin-left: 85px;
+}
+.text1 {
+  font-size:12px; 
+}
+.item {
+  margin-top: 279px;
+  margin-left: -170px;
+}
+.text {
+  font-size: 8px;
+  color: #8a8a8a;
+}
