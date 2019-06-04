@@ -4,56 +4,56 @@
   <view wx:if="{{music_url}}">
     <view wx:if="{{isPlayingMusic}}">
       <view class="background_music" bindtap="play">
-        <image src="../images/mus.png" class="musicImg music_icon" />
-        <image src="../images/music_play.png" class="music_play pauseImg" />
+        <image src="https://fanghaoran.xyz/images/mus.png" class="musicImg music_icon" />
+        <image src="https://fanghaoran.xyz/images/music_play.png" class="music_play pauseImg" />
       </view>
     </view>
     <view wx:else>
       <view class="background_music" bindtap="play">
-        <image src="../images/mus.png" class="musicImg" />
-        <image src="../images/music_play.png" class="music_play playImg" />
+        <image src="https://fanghaoran.xyz/images/mus.png" class="musicImg" />
+        <image src="https://fanghaoran.xyz/images/music_play.png" class="music_play playImg" />
       </view>
     </view>
   </view>
 
 <!-- 轮播图 -->
     <swiper class='lunbo' indicator-dots='true' autoplay='true' interval='4000'>
-        <swiper-item><image src='../images/banner/5c2d82c8de40e.jpg'></image></swiper-item>
-        <swiper-item><image src='../images/banner/111.jpg'></image></swiper-item>
+        <swiper-item><image src='https://fanghaoran.xyz/images/banner/5c2d82c8de40e.jpg'></image></swiper-item>
+        <swiper-item><image src='https://fanghaoran.xyz/images/banner/111.jpg'></image></swiper-item>
     </swiper>
     <!-- 分类导航栏 -->
     <view class='flex-wrp'>
       <navigator url='../template/alltemp/hunli/hunli'>
         <view class='flex-item'>
-            <image src='../images/images/timg.png'></image>
+            <image src='https://fanghaoran.xyz/images/images/timg.png'></image>
             <text class="bg_red">婚礼请帖</text>
         </view>
       </navigator>
 
       <navigator url='../template/alltemp/bir/bir'>
         <view class='flex-item'>
-            <image src='../images/images/bir.png'></image>
+            <image src='https://fanghaoran.xyz/images/images/bir.png'></image>
             <text class='bg_blue'>生日请帖</text>
         </view>
       </navigator>
 
       <navigator url='../template/alltemp/biye/biye'>
         <view class='flex-item'>
-            <image src='../images/images/biye.png'></image>
+            <image src='https://fanghaoran.xyz/images/images/biye.png'></image>
             <text class='bg_pink'>毕业请帖</text>
         </view>
       </navigator>
 
       <navigator url='../template/alltemp/ent/ent'>
         <view class='flex-item'>
-            <image src='../images/images/yaoqing.png'></image>
+            <image src='https://fanghaoran.xyz/images/images/yaoqing.png'></image>
             <text class='bg_brown'>企业请帖</text>
         </view>
       </navigator>
     </view>
     <!-- 广告图片 -->
     <view class='guanggao'>
-        <image src='../images/image/gg.jpg'></image>
+        <image src='https://fanghaoran.xyz/images/image/gg.jpg'></image>
     </view>
     <!-- 请柬模板示例 -->
     <view class='template'>

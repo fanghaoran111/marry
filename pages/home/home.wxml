@@ -3,7 +3,7 @@
 <!-- 登录 -->
   <view class="userinfo">
   <view class='userinfo-t' wx:if="{{!hasUserInfo && canIUse}}">
-     <image class='userinfo-log' src='../images/log.png'></image>
+     <image class='userinfo-log' src='https://fanghaoran.xyz/images/log.png'></image>
      <text>未登录状态</text>
   </view>
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击登录 </button>
@@ -18,23 +18,31 @@
   <view class='flex-wrap'>
   <navigator url='./computer/computer'>
     <view class='flex-item'>
-      <image src='../images/wenti.png'></image>
+      <image src='https://fanghaoran.xyz/images/wenti.png'></image>
       <text>常见问题</text>
-      <image class='flex-i' src='../images/jt.png'></image>
+      <image class='flex-i' src='https://fanghaoran.xyz/images/jt.png'></image>
     </view>
   </navigator>
+   <!-- 请柬信息 -->
+    <navigator url='./per/per'>
+    <view class='flex-item'>
+      <image src='https://fanghaoran.xyz/images/word.png'></image>
+      <text>请柬信息</text>
+      <image class='flex-i' src='https://fanghaoran.xyz/images/jt.png'></image>
+    </view>
+    </navigator>
   <!-- 联系我们 -->
     <view class='flex-item' bindtap='call'>
-      <image src='../images/phone.png'></image>
+      <image src='https://fanghaoran.xyz/images/phone.png'></image>
       <text>联系我们 18838091273</text>
-      <image class='flex-i' src='../images/jt.png'></image>
+      <image class='flex-i' src='https://fanghaoran.xyz/images/jt.png'></image>
     </view>
     <!-- 关于我们 -->
     <navigator url='./me/me'>
     <view class='flex-item'>
-      <image src='../images/me.png'></image>
+      <image src='https://fanghaoran.xyz/images/me.png'></image>
       <text>关于我们</text>
-      <image class='flex-i' src='../images/jt.png'></image>
+      <image class='flex-i' src='https://fanghaoran.xyz/images/jt.png'></image>
     </view>
     </navigator>
   </view>

@@ -2,7 +2,7 @@
 <view class="container">
 <!-- 顶部图片 -->
 	<view class='img'>
-    <image src='../images/image/gg.jpg'></image>
+    <image src='https://fanghaoran.xyz/images/image/gg.jpg'></image>
   </view>
   <!-- 所有模板 -->
   <view class='tem_1'>

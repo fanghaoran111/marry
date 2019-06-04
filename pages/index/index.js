@@ -13,114 +13,114 @@ Page({
      id:'1',
      title:'卡通森林',
      url:'https://fanghaoran.xyz/moban/marry1/',
-     img:'../images/moban/1.jpg',
-     imgs:'../images/moban/yan.png'
+     img:'https://fanghaoran.xyz/images/moban/1.jpg',
+     imgs:'https://fanghaoran.xyz/images/moban/yan.png'
    },{
        id: '2',
        title: '高端简约',
        url: 'https://fanghaoran.xyz/moban/marry2/',
-       img: '../images/moban/2.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/2.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
    }, {
        id: '3',
        title: '粉色轻奢',
        url: 'https://fanghaoran.xyz/moban/',
-       img: '../images/moban/3.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/3.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }, {
        id: '4',
        title: '清新森林',
        url: 'https://fanghaoran.xyz/moban/marry3/',
-       img: '../images/moban/4.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/4.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }, {
        id: '5',
        title: '浪漫韩式',
        url: '',
-       img: '../images/moban/5.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/5.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }, {
        id: '6',
        title: '粉蓝清新',
        url: '',
-       img: '../images/moban/6.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/6.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }
    ],
     array:[{
       id: '1',
      title:'生日快乐',
       url: '',
-     img:'../images/moban/7.jpg',
-     imgs:'../images/moban/yan.png'
+     img:'https://fanghaoran.xyz/images/moban/7.jpg',
+     imgs:'https://fanghaoran.xyz/images/moban/yan.png'
    },{
         id: '2',
        title: '动漫卡通',
         url: '',
-       img: '../images/moban/8.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/8.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
    }, {
         id: '3',
        title: '手绘风格',
         url: '',
-       img: '../images/moban/9.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/9.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }, {
         id: '4',
        title: '卡通人物',
         url: '',
-       img: '../images/moban/10.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/10.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }, {
         id: '5',
        title: '生日祝福',
         url: '',
-       img: '../images/moban/11.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/11.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }, {
         id: '6',
        title: '生日聚会',
         url: '',
-       img: '../images/moban/12.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/12.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }
    ],
     list:[{
       id: '1',
      title:'毕业季',
       url: '',
-     img:'../images/moban/13.jpg',
-     imgs:'../images/moban/yan.png'
+     img:'https://fanghaoran.xyz/images/moban/13.jpg',
+     imgs:'https://fanghaoran.xyz/images/moban/yan.png'
    },{
         id: '2',
        title: '毕业了',
         url: '',
-       img: '../images/moban/14.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/14.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
    }, {
         id: '3',
        title: '同学会',
         url: '',
-       img: '../images/moban/15.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/15.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }, {
         id: '4',
        title: '毕业季',
         url: '',
-       img: '../images/moban/16.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/16.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }, {
         id: '5',
        title: '毕业季',
         url: '',
-       img: '../images/moban/17.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/17.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }, {
         id: '6',
        title: '同学聚会',
         url: '',
-       img: '../images/moban/18.jpg',
-       imgs: '../images/moban/yan.png'
+       img: 'https://fanghaoran.xyz/images/moban/18.jpg',
+       imgs: 'https://fanghaoran.xyz/images/moban/yan.png'
      }
    ]
 
@@ -135,9 +135,9 @@ Page({
       dataUrl: musicUrl,
       title: '',
       coverImgUrl: ''
-    }),
-      that.saveUser(),
-      that.downLoadHomeImgs()
+    })
+      // that.saveUser(),
+      // that.downLoadHomeImgs()
   },
   // 播放方法
   play: function (event) {

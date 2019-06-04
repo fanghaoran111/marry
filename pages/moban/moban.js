@@ -1,5 +1,4 @@
 // pages/moban/moban.js
-// var postData = require('../index/index.js')
 Page({
 
   /**
@@ -20,7 +19,23 @@ Page({
     that.setData({
       url: options.url,//options为页面路由过程中传递的pic参数
     })
+    options.url ? this.setData({ url: decodeURIComponent(options.url) }) : this.setData({ url: options.url });
   },
+// 分享调用
+  onShareAppMessage: function (options) {
+    return {
+      title: '',
+      desc: '',
+      path: '/pages/index/index?url=' + encodeURIComponent(options.webViewUrl),
+    }
+    success:(res) => {
+      this.setData({
+        url:options.webViewUrl
+      })
+    }
+  },
+ 
+
 
   /**
    * 生命周期函数--监听页面初次渲染完成

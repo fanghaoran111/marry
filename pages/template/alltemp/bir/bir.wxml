@@ -9,18 +9,18 @@
       <!-- tab框显示内容 -->
       <view class='flex-wrap' wx:if="{{selected == 0}}">
         <view class='flex-item'>
-          <image class='img' src='../../../images/moban/7.jpg'></image>
+          <image class='img' src='https://fanghaoran.xyz/images/moban/7.jpg'></image>
           <view class='item'>
             <text class='text1'>卡通森林</text>
-            <image class='img1' src="../../../images/moban/yan.png"></image>
+            <image class='img1' src="https://fanghaoran.xyz/images/moban/yan.png"></image>
             <text class='text'>1110</text>
           </view>
         </view>
         <view class='flex-item'>
-          <image class='img' src='../../../images/moban/8.jpg'></image>
+          <image class='img' src='https://fanghaoran.xyz/images/moban/8.jpg'></image>
           <view class='item'>
             <text class='text1'>高端简约</text>
-            <image class='img1' src="../../../images/moban/yan.png"></image>
+            <image class='img1' src="https://fanghaoran.xyz/images/moban/yan.png"></image>
             <text class='text'>1110</text>
           </view>
         </view>
@@ -28,18 +28,18 @@
 
       <view class='flex-wrap' wx:if="{{selected == 1}}">
        <view class='flex-item'>
-          <image class='img' src='../../../images/moban/9.jpg'></image>
+          <image class='img' src='https://fanghaoran.xyz/images/moban/9.jpg'></image>
           <view class='item'>
             <text class='text1'>粉色轻奢</text>
-            <image class='img1' src="../../../images/moban/yan.png"></image>
+            <image class='img1' src="https://fanghaoran.xyz/images/moban/yan.png"></image>
             <text class='text'>1110</text>
           </view>
         </view>
         <view class='flex-item'>
-          <image class='img' src='../../../images/moban/10.jpg'></image>
+          <image class='img' src='https://fanghaoran.xyz/images/moban/10.jpg'></image>
           <view class='item'>
             <text class='text1'>清新森林</text>
-            <image class='img1' src="../../../images/moban/yan.png"></image>
+            <image class='img1' src="https://fanghaoran.xyz/images/moban/yan.png"></image>
             <text class='text'>1110</text>
           </view>
         </view>
@@ -47,18 +47,18 @@
 
       <view class='flex-wrap' wx:if="{{selected == 2}}">
        <view class='flex-item'>
-          <image class='img' src='../../../images/moban/11.jpg'></image>
+          <image class='img' src='https://fanghaoran.xyz/images/moban/11.jpg'></image>
           <view class='item'>
             <text class='text1'>浪漫韩式</text>
-            <image class='img1' src="../../../images/moban/yan.png"></image>
+            <image class='img1' src="https://fanghaoran.xyz/images/moban/yan.png"></image>
             <text class='text'>1110</text>
           </view>
         </view>
         <view class='flex-item'>
-          <image class='img' src='../../../images/moban/12.jpg'></image>
+          <image class='img' src='https://fanghaoran.xyz/images/moban/12.jpg'></image>
           <view class='item'>
             <text class='text1'>粉蓝清新</text>
-            <image class='img1' src="../../../images/moban/yan.png"></image>
+            <image class='img1' src="https://fanghaoran.xyz/images/moban/yan.png"></image>
             <text class='text'>1110</text>
           </view>
         </view>

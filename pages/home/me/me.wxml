@@ -1,6 +1,6 @@
 <!--pages/home/me/me.wxml-->
 <view class='container'>
-  <image src='../../images/log.png'></image>
+  <image src='https://fanghaoran.xyz/images/log.png'></image>
   <text class='flex-1'>制作团队：</text>
   <text class='flex-2'>226</text>
   <text class='flex-4'>程序简介：</text>

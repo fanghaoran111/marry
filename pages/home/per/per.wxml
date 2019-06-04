@@ -1,0 +1,49 @@
+<!--pages/home/per/per.wxml-->
+<view class="page-section">
+
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <view class='weui-cc'>邀请人</view>
+        <input class="weui-input" auto-focus placeholder="请输入姓名"/>
+      </view>
+    </view>
+
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class='weui-cc'> 手机号</view>
+          <input type="number" class="weui-input" maxlength="11" placeholder="请输入手机号 " />
+        </view>
+    </view>
+
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <view class='weui-cc'>被邀请人</view>
+        <input class="weui-input" placeholder="请输入姓名"/>
+      </view>
+    </view>
+
+    <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class='weui-cc'>日期选择</view>
+            <picker mode="date" value="{{formatDate}}" bindchange='bindDateChange'>
+              <view>
+                {{date}}
+              </view>
+            </picker>
+        </view>
+    </view>
+
+
+     <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class='weui-cc'>地址</view>
+          <input class="weui-input" placeholder="邀请详细地址 " value='{{address}}' />
+        </view>
+    </view>
+    <!-- <navigator class='map-c' url='./map/map'>
+        <button>点击获取位置</button> 
+    </navigator>  -->
+<view class='address' bindtap='onChangeAddress'>
+     <button>点击获取位置</button>
+ </view>
+  </view>
